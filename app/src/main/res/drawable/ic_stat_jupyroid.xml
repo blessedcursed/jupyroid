@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status bar icon: the app mark "[●]" (status icons must be single-color). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="52"
+    android:viewportHeight="52">
+    <group
+        android:translateX="-28"
+        android:translateY="-28">
+        <path
+            android:pathData="M40.5,35.5H33V72.5H40.5M67.5,35.5H75V72.5H67.5"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <group>
+            <!-- Bands are holes in the disc; the clip keeps their ends from spilling outside it. -->
+            <clip-path android:pathData="M40,54a14,14 0,1 0,28 0a14,14 0,1 0,-28 0z" />
+            <path
+                android:fillColor="#FFFFFFFF"
+                android:fillType="evenOdd"
+                android:pathData="M40,40h28v28h-28z M40,48.6C47,47.8 61,49.6 68,48.8V52.4C61,53.2 47,51.4 40,52.2z M40,56.6C47,55.8 61,57.6 68,56.8V60C61,60.8 47,59 40,59.8z" />
+        </group>
+    </group>
+</vector>

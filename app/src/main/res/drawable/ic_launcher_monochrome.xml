@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Themed-icon (Android 13+) version of the foreground. The system tints every pixel the same
+  color, so the bands are cut out of the disc (evenOdd holes) and drawn back at lower alpha.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M40.5,35.5H33V72.5H40.5M67.5,35.5H75V72.5H67.5"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FF000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <group>
+        <clip-path android:pathData="M39,54a15,15 0,1 0,30 0a15,15 0,1 0,-30 0z" />
+        <path
+            android:fillColor="#FF000000"
+            android:fillType="evenOdd"
+            android:pathData="M39,39h30v30h-30z M39,42.5C46,41.6 60,43.4 69,42.4V46C60,47 46,45.2 39,46.1z M39,56.4C46,55.6 60,57.4 69,56.6V59.6C60,60.4 46,58.6 39,59.4z" />
+        <path
+            android:fillColor="#59000000"
+            android:pathData="M39,42.5C46,41.6 60,43.4 69,42.4V46C60,47 46,45.2 39,46.1z M39,56.4C46,55.6 60,57.4 69,56.6V59.6C60,60.4 46,58.6 39,59.4z" />
+    </group>
+</vector>
